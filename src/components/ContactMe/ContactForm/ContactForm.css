@@ -1,0 +1,55 @@
+.contact-form-content {
+  width: 100%;
+  align-self: flex-start; 
+  margin-top: 0; 
+  margin-right: 0; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  grid-gap: 1.5rem;
+  width: auto; 
+}
+
+form input[type="text"] {
+  flex: 1;
+  width: 35%; 
+  font-size: 0.9rem;
+  color: #fff;
+  background: #130f2a;
+  border-radius: 0.6rem;
+  border: 1.5px solid #6751b9;
+  padding: 1rem;
+}
+
+form textarea {
+  flex: 1;
+  width: 35%; /* Set width to auto to adjust based on content */
+  font-size: 0.9rem;
+  color: #fff;
+  background: #130f2a;
+  border-radius: 0.6rem;
+  border: 1.5px solid #6751b9;
+  padding: 1rem;
+}
+
+form button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: 1.5px solid #a892fe;
+  border-radius: 0.6rem;
+  background: linear-gradient(90deg, #a892fe 0%, #8064c8 100%);
+  padding: 0.7rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 200px; /* Set width to auto to adjust based on content */
+}
